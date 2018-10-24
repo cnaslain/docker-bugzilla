@@ -18,7 +18,7 @@ RUN apt-get update && \
 	libtheschwartz-perl libtest-taint-perl libauthen-radius-perl libfile-slurp-perl \
 	libencode-detect-perl libmodule-build-perl libnet-ldap-perl libauthen-sasl-perl \
 	libtemplate-perl-doc libfile-mimeinfo-perl libhtml-formattext-withlinks-perl \
-	libgd-dev lynx-cur graphviz python-sphinx patch && \
+	libgd-dev lynx-cur graphviz python-sphinx patch \
 	wget && \
 	rm -rf /var/lib/apt/lists/* 
 
